@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa; /* Soft light background */
+  color: #333; /* Dark gray for readability */
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 12px;
+  background-color: #ffffff; /* White card */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Gentle shadow */
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50; /* Dark blue-gray for titles */
+  margin-bottom: 30px;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+h2 {
+  color: #2980b9; /* Muted blue for section headers */
+  margin: 20px 0 10px;
+  font-size: 1.3em;
+}
+
+.rule-input,
+.rule-dropdown {
+  margin-bottom: 35px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #ecf0f1; /* Soft light-gray background for input sections */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+}
+
+.rule-input input,
+.rule-dropdown select {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #bdc3c7; /* Light gray border */
+  border-radius: 6px;
+  font-size: 1em;
+  transition: border-color 0.2s;
+}
+
+.rule-input input:focus,
+.rule-dropdown select:focus {
+  border-color: #3498db; /* Bright blue focus border */
+  outline: none;
+}
+
+.rule-input button,
+.rule-dropdown button {
+  width: 100%;
+  background-color: #3498db; /* Bright blue buttons */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.rule-input button:hover,
+.rule-dropdown button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.message {
+  margin-top: 10px;
+  color: #e74c3c; /* Soft red for error messages */
+  font-weight: bold;
+}
